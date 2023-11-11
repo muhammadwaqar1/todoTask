@@ -1,3 +1,35 @@
+Functionality of application
+
+1 Adding a Task:
+
+When the user enters a task in the input field and clicks on the "Plus" icon, the task is added to the Firebase database and displayed at the bottom.
+
+2 Viewing Task Details:
+
+If the user clicks on a task, a box is displayed containing three pieces of information:
+"Task completion status."
+"Created at (time and date)."
+"Delete" button.
+
+3 Deleting a Task:
+
+Clicking on the "Delete" button removes the task.
+
+4 Editing a Task:
+
+Clicking on the Dote icon puts it back into the input field.
+If the user changes the task and clicks on the "Plus" icon, the task is updated; otherwise, the task remains unchanged.
+
+5 Changing Task Status:
+
+Clicking on the "Good" icon changes the status of the task to "completed."
+
+Tech Stack
+
+"I chose React for its component-based architecture, enabling a modular and efficient development workflow. Firebase provides a serverless backend, offering real-time database capabilities, authentication, and easy deployment. Tailwind CSS simplifies styling with utility classes, promoting rapid and consistent design. Together, these technologies streamline development, enhance user experience, and simplify the deployment process."
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
